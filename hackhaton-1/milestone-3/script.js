@@ -1,4 +1,4 @@
-document.getElementById('ResumeForm').addEventListener('submit', function(event) {
+document.getElementById('resumeForm').addEventListener('submit', function(event) {
     event.preventDefault(); // Prevent form from refreshing the page
 
     // Get form field values
