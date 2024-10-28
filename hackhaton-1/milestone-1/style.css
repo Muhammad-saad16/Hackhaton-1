@@ -1,5 +1,5 @@
 body{
-  background: url('../milestone-1/images/back2.jpg')no-repeat;
+  background: url('./back2.jpg')no-repeat;
   background-size: cover;
 }
 
