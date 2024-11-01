@@ -1,0 +1,144 @@
+body{
+    background: url(./images\ copy/back2.jpg)no-repeat;
+    background-size: cover;
+
+}
+h1{
+    font-size: 2rem;
+    color: #ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+form{
+    max-width:600px ;
+    margin: auto;
+    
+    border: 4px solid white;
+    border-radius: 8px;
+     border-style:groove ;
+     padding: 20px;
+     
+}
+fieldset{
+    border: 2px solid #ffffff;  
+    border-radius: 8px;
+}
+legend{
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+input{
+    
+        width: 90%;
+        border: 1px solid #ffffff;
+        padding: 5px 5px;
+        border-radius: 20px;
+        background-color: transparent;
+        color: #ffffff;
+    
+}
+label{
+    display: block;
+    margin: 8px 0 4px 0;
+    color: #ffffff;
+    font-size: 2rem;
+}
+input,textarea{
+    width: calc(100% - 1px);
+    padding: 8xp;
+    margin: 5px 0 0 0;
+    border: 1px solid #ffffff;
+    border-radius: 4px ;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: #ffffff;
+}
+button{
+    display: block;
+    /* width: 10px ; */
+    padding: 8px ;
+    background: #2e623b;
+    color: aliceblue;
+    border: 3px solid #ffffff;
+    border-radius: 6px;
+    margin: 10px 0 0 0;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+button:hover{
+    background: #fff;
+    color:  #2e623b;
+    font-weight: bold;
+}
+
+/* Resume Output Container */
+#resumeOutputContainer {
+    width: 60%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fefefe;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+#resumeOutputContainer h3 {
+    font-size: 22px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+#resumeOutputContainer p {
+    font-size: 14px;
+    color: #7f8c8d;
+    margin-bottom: 8px;
+}
+
+#resumeOutputContainer h4 {
+    font-size: 18px;
+    color: #34495e;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#resumeOutputContainer img {
+    display: block;
+    margin: 10px auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ddd;
+}
+#ResumeForm, #resumeOutputContainer, #editButton {
+    transition: all 0.3s ease;
+}
+
+@media only screen and (max-width: 768px) {
+    form, #resumeOutputContainer {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    legend {
+        font-size: 16px;
+    }
+
+    button[type="submit"] {
+        width: 100%;
+        padding: 12px;
+    }
+
+    #resumeOutputContainer h3 {
+        font-size: 20px;
+    }
+}
